@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="card staff-card">
+        <h1>Staff Portal</h1>
+
+        <div class="dashboard-grid">
+            
+            <div class="section">
+                <span class="section-title">New Donation Entry</span>
+                <div class="form-group">
+                    <label>Donor Name:</label>
+                    <input type="text" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label>Amount:</label>
+                    <input type="number" placeholder="0.00">
+                </div>
+                <button onclick="alert('Donation Confirmed')" class="btn btn-blue">Submit Record</button>
+            </div>
+
+            <div class="section">
+                <span class="section-title">Recent Transactions</span>
+                <ul class="transaction-list">
+                    <li><strong>Juan:</strong> ₱500.00</li>
+                    <li><strong>Maria:</strong> ₱1,200.00</li>
+                    <li><strong>Pedro:</strong> ₱250.00</li>
+                </ul>
+            </div>
+
+        </div> <a href="role.html" class="btn btn-outline">Log Out</a>
+    </div>
+</div>
+</body>
+</html>
