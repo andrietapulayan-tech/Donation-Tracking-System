@@ -1,0 +1,127 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; 
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%; max-width: 450px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.staff-header {
+     border-bottom: 4px solid #3498db; margin-bottom: 20px; padding-bottom: 10px; 
+}
+.admin-header {
+     border-bottom: 4px solid #e74c3c; margin-bottom: 20px; padding-bottom: 10px; 
+}
+
+h1 {
+     color: #333; margin-bottom: 10px;
+}
+p { 
+    color: #666; margin-bottom: 20px; 
+}
+
+.section {
+    text-align: left;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block; font-size: 14px; margin-bottom: 5px; font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-blue {
+    background: #3498db; color: white;
+}
+.btn-red {
+    background: #e74c3c; color: white;
+}
+.btn-gray {
+    background: #95a5a6; color: white; margin-top: 20px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding: 8px 0; border-bottom: 1px solid #eee; font-size: 14px;
+}
+.dashboard-grid {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.dashboard-grid .section {
+    flex: 1; 
+    margin-bottom: 0;
+}
+.transaction-list {
+    list-style: none;
+    padding: 0;
+}
+.transaction-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .dashboard-grid {
+        flex-direction: column;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+}
