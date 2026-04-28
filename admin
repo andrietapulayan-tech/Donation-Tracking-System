@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="admin-header">
+            <h1>Admin Control</h1>
+        </div>
+
+        <div class="section">
+            <span class="section-title">Financial Summary</span>
+            <p><strong>Total Collected:</strong> ₱1,950.00</p>
+            <p><strong>Active Staff:</strong> 3 Members</p>
+        </div>
+
+        <div class="section">
+            <span class="section-title">Database Management</span>
+            <button class="btn btn-blue">Download Report</button>
+            <button class="btn btn-red">Clear All Logs</button>
+        </div>
+
+        <a href="role.html" class="btn btn-gray">Log Out</a>
+    </div>
+</div>
+</body>
+</html>
