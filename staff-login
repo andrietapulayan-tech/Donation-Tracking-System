@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="card staff-card">
+        <h1>Staff Login</h1>
+        <p class="subtitle">Enter your credentials to continue</p>
+        
+        <div class="form-group">
+            <label>Employee ID</label>
+            <input type="text" placeholder="e.g. ST-101">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" placeholder="••••••••">
+        </div>
+
+        <a href="staff.html" class="btn btn-blue">Login as Staff</a>
+        <a href="role.html" class="btn btn-outline">Cancel</a>
+    </div>
+</div>
+</body>
+</html>
