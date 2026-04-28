@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div class="card role-card">
+        <h1>Donation System</h1>
+        <p class="subtitle">Welcome! Please select your role</p>
+        
+        <a href="Staff login.html" class="btn btn-blue">Go to Staff Portal</a>
+        <a href="admin login.html" class="btn btn-red">Go to Admin Portal</a>
+    </div>
+</div>
+</body>
+</html>
